@@ -1,0 +1,26 @@
+:root {
+    --yellow: #dca500;
+    --yellow-light: #ffbf00;
+    --gray: #333;
+    --white: #fafafa;
+    --radius: 0.3rem;
+    --transition: 0.3 ease-in-out;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../img/bg-intro-desktop.png');
+    padding: 2%;
+    background-color: aqua;
+}
+
+h1, h2, span, p {
+    font-family: 'Nunito', sans-serif;
+    color: var(--white);
+}
+
